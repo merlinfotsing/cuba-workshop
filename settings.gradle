@@ -1,0 +1,6 @@
+rootProject.name = 'workshop'
+include(':workshop-global', ':workshop-core', ':workshop-gui', ':workshop-web')
+project(':workshop-global').projectDir = new File(settingsDir, 'modules/global')
+project(':workshop-core').projectDir = new File(settingsDir, 'modules/core')
+project(':workshop-gui').projectDir = new File(settingsDir, 'modules/gui')
+project(':workshop-web').projectDir = new File(settingsDir, 'modules/web')
